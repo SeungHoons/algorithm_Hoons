@@ -1,4 +1,4 @@
-#include"stdafx.h"
+#define _CRT_SECURE_NO_WARNINGS
 #include<iostream>
 
 using namespace std;
@@ -31,8 +31,8 @@ int main()
         for (int j = 1; j <= N; j++)
         {
 
-            int temp1 = (result[j - 1][0] > result[j - 1][2]) ? result[j - 1][0] : result[j - 1][2];
-            int temp2 = (result[j - 1][0] > result[j - 1][1]) ? result[j - 1][0] : result[j - 1][1];
+            long temp1 = (result[j - 1][0] > result[j - 1][2]) ? result[j - 1][0] : result[j - 1][2];
+            long temp2 = (result[j - 1][0] > result[j - 1][1]) ? result[j - 1][0] : result[j - 1][1];
 
 
 
