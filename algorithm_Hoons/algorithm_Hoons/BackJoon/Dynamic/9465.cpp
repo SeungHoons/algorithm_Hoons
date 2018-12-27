@@ -15,7 +15,7 @@ int main()
         int N;
         scanf("%d", &N);
 
-        long num[100000][2] = { 0 };
+        long num[2][100000] = { 0 };
         long result[100000][3] = { 0 };
 
         
@@ -31,15 +31,15 @@ int main()
         for (int j = 1; j <= N; j++)
         {
 
-            long temp1 = (result[j - 1][0] > result[j - 1][2]) ? result[j - 1][0] : result[j - 1][2];
-            long temp2 = (result[j - 1][0] > result[j - 1][1]) ? result[j - 1][0] : result[j - 1][1];
+            long temp1 = (result[j - 1][0] >= result[j - 1][2]) ? result[j - 1][0] : result[j - 1][2];
+            long temp2 = (result[j - 1][0] >= result[j - 1][1]) ? result[j - 1][0] : result[j - 1][1];
 
 
 
             result[j][0] = (temp1 >= temp2) ? temp1 : temp2;
 
-            result[j][1] = temp1 + num[j - 1][0]; 
-            result[j][2] = temp2 + num[j - 1][1];
+            result[j][1] = temp1 + num[0][j - 1];
+            result[j][2] = temp2 + num[1][j - 1];
 
         }
         
@@ -52,7 +52,7 @@ int main()
             }
         }
 
-        printf("%ld", temp);
+        printf("%ld\n", temp);
 
     }
     return 1;
