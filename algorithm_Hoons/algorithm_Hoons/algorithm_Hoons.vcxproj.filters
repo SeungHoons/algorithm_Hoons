@@ -189,5 +189,11 @@
     <ClCompile Include="BackJoon\Dynamic\11722.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="BackJoon\Dynamic\1912.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BackJoon\Dynamic\2579.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
