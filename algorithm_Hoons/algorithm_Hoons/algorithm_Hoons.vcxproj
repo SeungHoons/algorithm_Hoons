@@ -234,7 +234,10 @@
     <ClCompile Include="BackJoon\Math\2609.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="BackJoon\Math\9613.cpp" />
+    <ClCompile Include="BackJoon\Math\2745.cpp" />
+    <ClCompile Include="BackJoon\Math\9613.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="BackJoon\num1011_flymotothe.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
