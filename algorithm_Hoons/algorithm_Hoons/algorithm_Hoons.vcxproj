@@ -228,7 +228,10 @@
     <ClCompile Include="BackJoon\Math\10430.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="BackJoon\Math\11005.cpp" />
+    <ClCompile Include="BackJoon\Math\11005.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="BackJoon\Math\1373.cpp" />
     <ClCompile Include="BackJoon\Math\1934.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
