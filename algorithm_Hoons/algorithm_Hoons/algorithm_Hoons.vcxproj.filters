@@ -45,12 +45,6 @@
     <ClCompile Include="BackJoon\2675_문자열반복.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="BackJoon\2751.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="BackJoon\2751_배열.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="BackJoon\2908.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -253,6 +247,21 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="BackJoon\Math\1676.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BackJoon\Math\2004.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BackJoon\Sort\11650.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BackJoon\Sort\2751.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BackJoon\Sort\2751_배열.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BackJoon\Sort\11651.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
