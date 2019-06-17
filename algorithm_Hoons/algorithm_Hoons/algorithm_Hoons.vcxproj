@@ -194,7 +194,10 @@
     <ClCompile Include="BackJoon\Sort\10814.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="BackJoon\Sort\10825.cpp" />
+    <ClCompile Include="BackJoon\Sort\10825.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="BackJoon\Sort\10989.cpp" />
     <ClCompile Include="BackJoon\Sort\11651.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
