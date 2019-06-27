@@ -279,5 +279,8 @@
     <ClCompile Include="BackJoon\Sort\11004.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="BackJoon\Sort\1377.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
