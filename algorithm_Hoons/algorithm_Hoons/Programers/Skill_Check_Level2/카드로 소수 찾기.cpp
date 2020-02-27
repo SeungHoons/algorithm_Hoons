@@ -89,7 +89,7 @@ int main()
 {
 	string input;
 
-	input = "17";
+	input = "11117";
 
 	cout<<solution(input);
 	return 0;
