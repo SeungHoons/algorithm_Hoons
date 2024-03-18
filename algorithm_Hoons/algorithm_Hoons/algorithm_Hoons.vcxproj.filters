@@ -366,5 +366,17 @@
     <ClCompile Include="BackJoon\2470_두 용액.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="BackJoon\17413_단어 뒤집기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BackJoon\2960_에라토스테네의 체.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BackJoon\10773_제로.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BackJoon\10870_피보나치 수 5(재귀).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
