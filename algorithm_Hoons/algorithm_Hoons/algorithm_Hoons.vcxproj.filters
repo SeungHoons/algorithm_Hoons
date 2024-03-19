@@ -378,5 +378,11 @@
     <ClCompile Include="BackJoon\10870_피보나치 수 5(재귀).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="BackJoon\25501_재귀의 귀재.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BackJoon\15721_번데기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
